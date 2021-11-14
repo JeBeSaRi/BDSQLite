@@ -46,11 +46,11 @@ public class MainActivity extends AppCompatActivity {
         String PrcP = txt_Precio.getText().toString();
 
         //Metodos de verificacion
-        if(!idPrenda.isEmpty() && !NmbP.isEmpty() && !DescP.isEmpty() && !CtgP.isEmpty() && !CtnP.isEmpty() && !PrcP.isEmpty()){
+        if(/*!idPrenda.isEmpty() && */!NmbP.isEmpty() && !DescP.isEmpty() && !CtgP.isEmpty() && !CtnP.isEmpty() && !PrcP.isEmpty()){
             //Agregar un registro a la Base de Datos
             ContentValues registroPrenda = new ContentValues();
             //Referenciar los valores locales de las columnas con los valores reales de la tabla de la BD
-            registroPrenda.put("idPrenda", idPrenda);
+            //registroPrenda.put("idPrenda", idPrenda);
             registroPrenda.put("Nombre",NmbP);
             registroPrenda.put("Descripcion",DescP);
             registroPrenda.put("Categoria",CtgP);
