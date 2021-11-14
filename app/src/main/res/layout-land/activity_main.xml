@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_NombreProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Nombre de la Prenda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_Descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Descripcion de la Prenda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_Categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Categoria de la Prenda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_CantidadCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Cantidad de la Prenda"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_PrecioUnitario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="299dp"
+        android:ems="10"
+        android:hint="Precio de la Prenda"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="395dp"
+        android:layout_marginBottom="3dp"
+        android:onClick="Registar"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="61dp"
+        android:onClick="Consultar"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="405dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="Eliminar"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="99dp"
+        android:onClick="Modificar"
+        android:text="Modificar" />
+
+    <EditText
+        android:id="@+id/txt_IDCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="number" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
